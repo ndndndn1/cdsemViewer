@@ -1,4 +1,4 @@
-# Track-based CD-SEM Data Viewer (v2.4)
+# Track-based CD-SEM Data Viewer (v2.5)
 
 본 프로그램은 Track-based CD-SEM 장비에서 추출된 웨이퍼 Top View 데이터를 효율적으로 관리하고 분석하기 위해 개발된 독립적인 연구용 소프트웨어입니다. 복잡한 계층 구조를 가진 계측 데이터(cond.txt)를 자동으로 통합하여 시각화 및 통계적 통찰을 제공합니다.
 
@@ -54,5 +54,6 @@ pyinstaller --onefile --windowed --icon=cdsemViewer/ico/cdsem.ico cdsemViewer/cd
 본 소프트웨어는 연구 목적으로 개발된 독립 도구이며, 특정 장비 제조사와 공식적인 관계가 없습니다. 데이터 파싱 결과에 대한 최종 검증 책임은 사용자에게 있습니다.
 
 ## 라이선스
+
 
 이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
