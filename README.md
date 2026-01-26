@@ -20,14 +20,15 @@
 
 장비에서 추출된 데이터는 아래와 같은 표준 구조를 유지해야 정상적으로 로드됩니다.
 
-Project_Folder
+
+```Project_Folder
 ├── ImageName_0001.jpg
 ├── ImageName_0001.jpg_cnd
 │   └── cond.txt (계측 정보 로그)
 ├── ImageName_0002.jpg
 └── ImageName_0002.jpg_cnd
     └── cond.txt
-
+```
     Option: 레시피 레이아웃이 단일 레이어인 경우, 테이블 형식의 분석 기능을 추가로 활용할 수 있습니다.
 
 ## ⚙️ 설정 (Configuration)
@@ -38,7 +39,9 @@ Project_Folder
 ## 🚀 빌드 가이드 (Release to EXE)
 
 Windows 환경에서 단독 실행 파일(.exe)을 생성
+```
 pyinstaller --onefile --windowed --icon=cdsemViewer/ico/cdsem.ico cdsemViewer/cdsem_viewer.py
+```
 
 ## 📖 사용 방법 (How to Use)
 
@@ -57,3 +60,4 @@ pyinstaller --onefile --windowed --icon=cdsemViewer/ico/cdsem.ico cdsemViewer/cd
 
 
 이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+
