@@ -1,0 +1,24 @@
+[project]
+name = "cdsem"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.3",
+    "pyyaml>=6.0.3",
+    "xlsxwriter>=3.2.9",
+]
+
+[tool.uv]
+# 기본 인덱스: PyPI
+index-url = "https://pypi.org/simple"
+# 추가 인덱스: 없음 (비움이 포인트)
+extra-index-url = []
+
+# (선택) 최신 문법: 명시적 인덱스 목록을 PyPI 하나로만
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+default = true

@@ -1,0 +1,16 @@
+subgroups:
+  - name: "80~250 nm"
+    min: 80
+    max: 250
+  - name: "280~400 nm"
+    min: 280
+    max: 400
+  - name: "440~590 nm"
+    min: 440
+    max: 590
+  - name: "850~1200 nm"
+    min: 850
+    max: 1200
+  - name: "etc"
+    min: null
+    max: null
